@@ -75,8 +75,8 @@ def get_user_call(endpoint):
 
     payload = "scope=users%3Aread%20users%3Awrite%20user_skills%3Awrite" + "&" + \
     "grant_type=client_credentials" + "&" + \
-    "client_id=590075deea8fb914" + "&" + \
-    "client_secret=786bb7a33f2c0f47aa3e7937714d754d"
+    "client_id=####" + "&" + \
+    "client_secret=####"
     headers = {
     "Content-Type": "application/x-www-form-urlencoded"
     }
